@@ -1,13 +1,13 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial;
     background-color: #ffffff;
 }
 
 
 
 header{
-    background-color: lightblue;
-    color: #ffffff;
+    background-color:#2ECC71 ;
+    color: #17202A;
     text-align: center;
 }
 
@@ -16,6 +16,7 @@ header *{
     display: flex;
     align-items: center;
     justify-content: center;
+	
 }
 
 .header-container {
@@ -27,12 +28,19 @@ h1,
 h2 {
     margin-top: 20px;
     text-align: center;
+
 }
 
 main {
     max-width: 500px;
     margin: auto;
+
 }
+
+class {
+	font-size: 12px;
+}
+
 
 label {
     display: block;
@@ -49,20 +57,20 @@ select {
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: Arial;
     box-sizing: border-box;
 }
 
 input[type="submit"],
 input[type="button"] {
-    background-color: lightblue;
+    background-color: #2ECC71;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 4px;
     cursor: pointer;
     padding: 12px 20px;
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial;
     transition: background-color 0.3s ease;
 }
 
@@ -79,7 +87,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: Arial;
 }
 
 th,
@@ -87,7 +95,7 @@ td {
     padding: 10px;
     text-align: center;
     border: 5px solid lightblue;
-    background-color: lightblue;
+    background-color: #2ECC71;
 }
 
 td {
@@ -111,8 +119,8 @@ th {
 
 .listado-servicios a {
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    color: #000000;
+    font-family: Arial;
+    color: #ffffff;
     font-size: 10px;
     margin-right: 10px;
 }
